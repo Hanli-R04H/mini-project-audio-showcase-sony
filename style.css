@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.top-bar {
+    display: flex;
+    top: 0;
+    left: 0;
+    padding: 0 130px  0;
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav.left {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-sony {
+    width: 140px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-middle {
+    display: flex;
+    padding: 0;
+    gap: 30px;
+}
+
+.btn-nav-middle {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.1s ease;
+}
+
+.btn-nav-middle:hover {
+    color: rgb(73, 144, 244);
+}
+
+.nav-right {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    gap: 30px;
+}
+
+.btn-nav-right {
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.1s ease;
+}
+
+.btn-nav-right:hover {
+    color: rgb(73, 144, 244);
+}
+
+.search-nav-icon {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    transition: color 0.1s ease;
+}
+
+.search-nav-icon:hover {
+    color: rgb(73, 144, 244);
+}
