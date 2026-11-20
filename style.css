@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-margin-top: 70px;
+}
+
 body {
     background-color: #ffffff;
     color: #ffffff;
@@ -25,12 +30,15 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo-sony {
     width: 140px;
     height: 100%;
     object-fit: cover;
+    margin-top: 3px;
 }
 
 .nav-middle {
@@ -79,4 +87,116 @@ body {
 
 .search-nav-icon:hover {
     color: rgb(73, 144, 244);
+}
+
+
+
+/* main syling */
+.abu {
+    background-color: #f2f2f2;
+}
+
+.app-main-container {
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    color: #0f0f0f;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.main-container-box {
+    min-height: 60vh;
+    top: 0;
+}
+
+
+
+
+/*atur background jadi blur untuk yang bergambar atau "background-image"*/
+.img-background-card-box {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    min-height: 67vh;
+    
+}
+.img-background-card-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: linear-gradient(rgba(11, 13, 16, 0.45), rgba(11, 13, 16, 0.75)), 
+                url(https://www.sony.com/en/top/2021/img/en_20261119_BlackFridaySNA_image_l.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    transform: scale(1.06);
+}
+/*ini kelengkapan blur ada coment "1" dan "2" hal ini agar buat box area ini jadi naik ke atas*/
+.box-card {
+    flex-shrink: 0;
+    position: relative; /*1*/
+    z-index: 1; /*2*/
+    background-color: transparent;
+    margin-top: 13px;
+    width: 49%;
+    max-height: 50vh;
+    border: none;
+    border-radius: 6px;
+    
+}
+/*sampai di sini cara buat jadi blur background ini bro*/
+
+.scroll-box-sony{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    display: flex;
+    gap: 35px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 97%;
+    margin-left: 30px;
+    padding-bottom: 108px;
+
+}
+
+.img-box-card {
+    width: 98%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.box-card h4 {
+    margin-top: 14px;
+    padding-bottom: 14px;
+    color: #ffffff;
+}
+
+.title-a-biasa {
+    color: #ffffff;
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.title-a-judul {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* footer kita  */
+.footer-container {
+    background-color: #1f2024;
+    padding: 25px;
 }
