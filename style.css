@@ -55,7 +55,7 @@ body {
 }
 
 .btn-nav-middle:hover {
-    color: rgb(73, 144, 244);
+    color: #29a8f6;
 }
 
 .nav-right {
@@ -75,7 +75,7 @@ body {
 }
 
 .btn-nav-right:hover {
-    color: rgb(73, 144, 244);
+    color: #29a8f6;;
 }
 
 .search-nav-icon {
@@ -86,7 +86,7 @@ body {
 }
 
 .search-nav-icon:hover {
-    color: rgb(73, 144, 244);
+    color: #29a8f6;;
 }
 
 
@@ -97,8 +97,6 @@ body {
 }
 
 .app-main-container {
-    top: 0;
-    left: 0;
     display: flex;
     flex-direction: column;
     color: #0f0f0f;
@@ -156,10 +154,11 @@ body {
     z-index: 1;
     display: flex;
     display: flex;
-    gap: 35px;
+    gap: 15px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+    scrollbar-width: none;
     width: 97%;
     margin-left: 30px;
     padding-bottom: 108px;
@@ -167,7 +166,7 @@ body {
 }
 
 .img-box-card {
-    margin-left: 5px;
+    margin-left: 10px;
     width: 97%;
     height: 100%;
     object-fit: cover;
@@ -181,7 +180,7 @@ body {
 }
 
 .box-card h4 {
-    margin-left: 5px;
+    margin-left: 10px;
     margin-top: 14px;
     padding-bottom: 14px;
     color: #ffffff;
@@ -201,7 +200,7 @@ body {
     text-decoration: none;
     font-size: 15px;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .title-a-judul {
@@ -209,7 +208,203 @@ body {
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-    margin-left: 5px;
+    margin-left: 10px;
+}
+
+
+/* letest news top bar styling */
+.language {
+    display: flex;
+    justify-content:right;
+    padding-bottom: 3px;
+}
+
+.letest-new-container {
+    background-color: #ffffff;
+    padding: 27px 140px;
+    font-size: 13px;
+}
+
+.letest-container-box {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 10px 40px 10px;
+    gap: 20px;
+}
+
+.letest-new-link {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+    color: #656565;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    margin-right: 35px;
+}
+
+.letest-new-link:hover {
+    text-decoration: underline;
+}
+
+.letest-new-penjelasan {
+    display: flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+}
+
+.letest-new-penjelasan:hover {
+    text-decoration: underline;
+}
+
+.icon-panah-turun {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.about-zony-grub-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.about-zony-grub-container h1 {
+    font-size: 50px;
+}
+
+.about-zony-grub-container p {
+    color: #1f2024;
+    font-size: 19px;
+    font-style:unset;
+}
+
+/* .box-about-sony {
+    background-color: #0f0f0f;
+
+} */
+
+.box-about-sony-group-container {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 121px;
+}
+
+.box-about-sony-group {
+    display: flex;
+    background-color: red;
+    width: 650px;
+    height: 28vh;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.img-abot-sony-group {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.judul-box-about-sony-group {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #0f0f0f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.05s ease;
+}
+
+.judul-box-about-sony-group:hover {
+    text-decoration: underline;
+}
+
+
+.box-card-bran-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 105px 0;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.card-tall {
+    grid-row: span 2;
+}
+
+.card-tall img {
+    height: 93%;
+}
+
+.img-bran-card {
+    width: 650px;
+    height: 85%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.box-card-bran {
+    /* background-color: rebeccapurple; */
+    width: 650px;
+    /* min-height: 50%; */
+    padding-bottom: 55px;
+}
+
+.box-card-bran h3 {
+    margin-top: 10px;
+    color: #29a8f6;
+}
+
+.box-card-bran p {
+    color: #656565;
+    margin-top: 10px;
+    transition: 0.05s ease;
+}
+
+.box-card-bran p:hover {
+    text-decoration: underline;
+}
+
+
+
+.follow-sosial-container {
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 0 140px;
+    flex-direction: column;
+    flex: 1;
+    gap: 25px;
+}
+
+.follow-sosial-container span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #656565;
+}
+
+.social-icons {
+    display: flex;
+    font-size: 70px;
+    gap: 80px;
+    padding-bottom: 80px;
+}
+
+.icon-soisal-meida {
+    color: #1f2024;
 }
 
 
