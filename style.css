@@ -19,7 +19,7 @@ body {
     display: flex;
     top: 0;
     left: 0;
-    padding: 0 130px  0;
+    padding: 8px 130px 8px;
     background-color: #0f0f0f;
     display: flex;
     justify-content: space-between;
@@ -351,7 +351,7 @@ body {
 .img-bran-card {
     width: 650px;
     height: 85%;
-    border-radius: 8px;
+    border-radius: 5px;
     object-fit: cover;
 }
 
@@ -386,7 +386,7 @@ body {
     display: flex;
     padding: 0 140px;
     flex-direction: column;
-    flex: 1;
+    /* flex: 1; */
     gap: 25px;
 }
 
@@ -407,6 +407,116 @@ body {
     color: #1f2024;
 }
 
+
+
+.letest-new-container {
+    padding: 90px 130px;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.judul-letest-new-container {
+    display: flex;
+    justify-content: space-between;
+    color: #656565;
+    align-items: center;
+}
+
+.judul-letest-new-container h1 {
+    font-size: 35px;
+    display: flex;
+}
+
+.judul-letest-new-container span{
+    display: flex;
+    font-size: 20px;
+    gap: 5px;
+    transition: 0.05s ease;
+    cursor:default;
+    align-items: center;
+    justify-content: center;
+}
+
+.judul-letest-new-container span:hover {
+    text-decoration: underline;
+}
+
+.icon-panag-kanan-letest-new {
+    font-size: 17px;
+}
+
+
+.list-letest-new ul {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 40px;
+}
+
+
+
+.list-letest-new a {
+    display: flex;
+    font-size: 16px;
+    color: #0f0f0f;
+    text-decoration: none;
+    transition: 0.05s ease;
+    cursor: default;
+}
+
+.list-letest-new a:hover{
+    text-decoration: underline;
+}
+
+.date-letest-new {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 30px;
+    color: #656565;
+}
+
+.important-notice-contaner {
+    display: flex;
+    justify-content:center;
+    padding-bottom: 120px;
+}
+
+.box-important-notice{
+    display: flex;
+    background-color: transparent;
+    /* border: 2px solid;
+    border-color: #656565; */
+    padding: 25px 140px ;
+    color: #656565;
+    transition: color 0.05s ease;
+}
+
+.box-important-notice:hover {
+    color: white;
+}
+
+.box-important-notice span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-utama-notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-color: #656565;
+    color: #656565;
+    padding: 0 15px;
+    transform: color 0.05 ease;
+}
+
+.box-utama-notice:hover {
+    background-color: #c1c1c1;
+    color: #0f0f0f;
+}
 
 /* footer kita  */
 .footer-container {
