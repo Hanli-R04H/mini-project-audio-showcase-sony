@@ -480,7 +480,7 @@ body {
 .important-notice-contaner {
     display: flex;
     justify-content:center;
-    padding-bottom: 120px;
+    padding-bottom: 115px;
 }
 
 .box-important-notice{
@@ -524,7 +524,7 @@ body {
     flex-wrap: wrap;
     padding: 0 130px 50px;
     margin: none;
-    margin-top: 20px;
+    margin-top: 30px;
     gap: 80px;
     cursor: default;
     color: #656565;
@@ -566,5 +566,38 @@ body {
 /* footer kita  */
 .footer-container {
     background-color: #1f2024;
-    padding: 25px;
+    justify-content: space-between;
+    display: flex;
+    padding: 25px 100px;
+    margin: 0;
+    left: 0;
+    cursor: default;
+}
+
+.fot-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.fot-left a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: default;
+    transition: 0.05s ease;
+}
+
+.fot-left a:hover {
+    text-decoration: underline;
+}
+
+.fot-right {
+    display: flex;
+    align-items: center;
+}
+
+.fot-right p {
+    font-size: 13px;
+    color: #7d7d7d;
 }
