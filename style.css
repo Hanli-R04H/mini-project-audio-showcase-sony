@@ -518,6 +518,51 @@ body {
     color: #0f0f0f;
 }
 
+
+.list-container-menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 130px 50px;
+    margin: none;
+    margin-top: 20px;
+    gap: 80px;
+    cursor: default;
+    color: #656565;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.lits-menu{
+    display: grid;
+    font-size: 11px;
+    gap: 20px;
+}
+
+.list-menu-ul{
+    color: #656565;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.list-menu-ul li {
+    padding-bottom: 10px;
+}
+
+.lits-menu a {
+    color: #656565;
+    text-decoration: none;
+    transition: 0.05s ease;
+    cursor: default;
+}
+
+.lits-menu a:hover {
+    text-decoration: underline;
+}
+
 /* footer kita  */
 .footer-container {
     background-color: #1f2024;
