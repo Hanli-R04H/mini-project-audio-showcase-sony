@@ -35,10 +35,9 @@ body {
 }
 
 .logo-sony {
-    width: 140px;
+    width: 160px;
     height: 100%;
     object-fit: cover;
-    margin-top: 3px;
 }
 
 .nav-middle {
